@@ -1,0 +1,33 @@
+h1, p {
+    text-align: center;
+}
+
+.flex {
+    display:flex;
+    align-items:center;
+    margin:10px;
+    padding:10px;
+}
+
+#container {
+    width:33%;
+    min-height:40px;
+    padding:10px;
+    margin: 0 auto;
+    background-color:lightslategray;
+}
+
+#row1 {
+    background-color:lightblue;
+    justify-content:space-between;
+}
+
+#row2 {
+    background-color:lightpink;
+    justify-content: space-evenly;
+}
+
+#row3 {
+    background-color:whitesmoke;
+    justify-content:space-between;
+}
